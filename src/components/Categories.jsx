@@ -18,14 +18,15 @@ function Categories() {
 
   return (
     <div className="flex justify-center">
-      <div className="grid grid-cols-4 gap-2">
-        {categories.map((category, index) => (
-          <div key={index}>
-            <div className="category-card text-xl font-semibold">{category}</div>
-          </div>
-        ))}
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    {categories.map((category, index) => (
+      <div key={index}>
+        <div className="category-card text-xl font-semibold">{category}</div>
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
   );
 }
 

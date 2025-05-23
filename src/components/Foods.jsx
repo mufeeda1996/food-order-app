@@ -23,7 +23,7 @@ function Foods() {
         );
       }
   return (
-    <div>
+    <div className='flex justify-center items-center h-screen'>
       
           <div  className="card bg-base-100 w-80 shadow-md">
             <figure className="px-10 pt-10">

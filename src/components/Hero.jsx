@@ -12,7 +12,7 @@ function Hero() {
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-left">
     <div className="max-w-md-lg">
-      <h1 className="mb-5  text-7xl font-bold"><span >Express</span><br></br> Home Delivery</h1>
+      <h1 className="mb-5 text-2xl md:text-7xl font-bold"><span >Express</span><br></br> Home Delivery</h1>
       <p className="mb-5">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
