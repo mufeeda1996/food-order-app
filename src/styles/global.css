@@ -54,3 +54,7 @@
     color:var(--primary-color);
     justify-content: center;
   }
+  .card-actions .link{
+    color: #fff;
+    text-decoration: none;
+  }

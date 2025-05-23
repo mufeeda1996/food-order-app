@@ -46,7 +46,7 @@ function PopularProduct() {
               <h2 className="card-title">{item.name}</h2>
               <p className="text-sm">{item.description || 'No description available'}</p>
               <div className="card-actions">
-                <button className=" btn btn-dark"><Link to={`./foods/${item.id}`}>know more</Link>  </button>
+                <button className="btn btn-dark"><Link className='link' to={`./foods/${item.id}`}>know more</Link>  </button>
               </div>
             </div>
           </div>
