@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import './color.css';
+
+.navbar {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+  }
+  .navbar .menu li{
+    font-size: 1rem;
+   
+  }
+  .navbar .menu li:hover{
+    color: var(--primary-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .navbar-end .btn{
+    color: var(--primary-color);
+    
+  }
+  .navbar-end .btn:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    transition: background-color 0.1s ease, color 0.1s ease;
+  }
+  .hero{
+    background-image: url('https://wallpapercave.com/wp/wp11872862.jpg');
+    border-bottom-right-radius: 400px;
+    /* background-color: aliceblue; */
+  }
+  .hero-overlay{
+    background-color: transparent;
+  }
+  .hero span{
+    color: var(--primary-color);
+  }
+  .btn-dark{
+    background-color: var(--primary-color);
+    color: var(--secondary-colr) !important;
+    border: none !important;
+  }
+  .btn{
+    border: none !important;
+  }
+  .category-card{
+    width: 280px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    transform: translate(0px, -20px);
+    align-items: center;
+    display: flex;
+    color:var(--primary-color);
+    justify-content: center;
+  }
