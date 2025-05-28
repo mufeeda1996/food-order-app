@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 import './styles/global.css'
 import Foods from './components/Foods.jsx';
+import CategoryDishes from './components/CategoryDishes.jsx';
 
 const router = createBrowserRouter([
   
@@ -24,11 +25,11 @@ const router = createBrowserRouter([
       {
         path: "foods/:id",
         element: <Foods/>,
-      }
-      // {
-      //   path: "aboutus",
-      //   element: <h1>hiii</h1>,
-      // },
+      },
+      {
+        path: "/category/dishes/:categoryName",
+        element: <CategoryDishes/>
+      },
       // {
       //   path: "users/userdetails/:id", 
       //   element: <Userdetails />,

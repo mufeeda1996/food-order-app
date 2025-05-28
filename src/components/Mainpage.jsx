@@ -5,7 +5,7 @@ import PopularProduct from './PopularProduct'
 function Mainpage() {
   return (
     <>
-    <Hero/>
+    {/* <Hero/> */}
     <PopularProduct/>
     </>
   )

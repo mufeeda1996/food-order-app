@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Paneer Tikka",
       "price": 8.99,
-      "image": "images/paneer_tikka.jpg",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.-ndMbbnDa5vPzgLYrBbLMgHaE7?rs=1&pid=ImgDetMain",
       "description": "Grilled paneer cubes marinated in spices.",
       "category": "indian"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Chole Bhature",
       "price": 7.99,
-      "image": "images/chole_bhature.jpg",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.mNVCKLDf6Nn3GA0liOLhZgHaEK?rs=1&pid=ImgDetMain",
       "description": "Spicy chickpeas with fried bread.",
       "category": "indian"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Biryani",
       "price": 9.49,
-      "image": "images/biryani.jpg",
+      "image": "",
       "description": "Fragrant rice with Indian spices.",
       "category": "indian"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Samosa",
       "price": 3.49,
-      "image": "images/samosa.jpg",
+      "image": "",
       "description": "Fried pastry with spicy potato filling.",
       "category": "indian"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "name": "Masala Dosa",
       "price": 6.99,
-      "image": "images/masala_dosa.jpg",
+      "image": "",
       "description": "Crispy rice crepe with spicy filling.",
       "category": "indian"
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "name": "Palak Paneer",
       "price": 8.49,
-      "image": "images/palak_paneer.jpg",
+      "image": "",
       "description": "Spinach curry with cottage cheese.",
       "category": "indian"
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Rajma Chawal",
       "price": 6.99,
-      "image": "images/rajma_chawal.jpg",
+      "image": "",
       "description": "Kidney beans curry with rice.",
       "category": "indian"
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "name": "Tandoori Chicken",
       "price": 9.99,
-      "image": "images/tandoori_chicken.jpg",
+      "image": "",
       "description": "Roasted chicken with spices.",
       "category": "indian"
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "name": "Pav Bhaji",
       "price": 6.49,
-      "image": "images/pav_bhaji.jpg",
+      "image": "",
       "description": "Mashed spiced vegetables with bread.",
       "category": "indian"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Margherita Pizza",
       "price": 9.99,
-      "image": "https://th.bing.com/th/id/OIP.PHHJ-IQE1K-ECfjmv9sC3wHaHa?rs=1&pid=ImgDetMain",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.RWaaZCnAJwE8O0FxwD7y0AHaEo?rs=1&pid=ImgDetMain",
       "description": "Classic pizza with cheese and tomato.",
       "category": "italian"
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "name": "Pasta Alfredo",
       "price": 10.49,
-      "image": "images/alfredo_pasta.jpg",
+      "image": "",
       "description": "Creamy Alfredo pasta with herbs.",
       "category": "italian"
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "name": "Lasagna",
       "price": 11.99,
-      "image": "images/lasagna.jpg",
+      "image": "",
       "description": "Layered pasta with meat and cheese.",
       "category": "italian"
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "name": "Bruschetta",
       "price": 6.99,
-      "image": "images/bruschetta.jpg",
+      "image": "",
       "description": "Grilled bread with tomato topping.",
       "category": "italian"
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "name": "Spaghetti Bolognese",
       "price": 10.99,
-      "image": "images/spaghetti_bolognese.jpg",
+      "image": "",
       "description": "Spaghetti with meat sauce.",
       "category": "italian"
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "name": "Ravioli",
       "price": 9.49,
-      "image": "images/ravioli.jpg",
+      "image": "",
       "description": "Stuffed pasta with cheese filling.",
       "category": "italian"
     },
@@ -132,7 +132,7 @@
       "id": 17,
       "name": "Focaccia",
       "price": 5.99,
-      "image": "images/focaccia.jpg",
+      "image": "",
       "description": "Italian flatbread with herbs.",
       "category": "italian"
     },
@@ -140,7 +140,7 @@
       "id": 18,
       "name": "Caprese Salad",
       "price": 7.99,
-      "image": "images/caprese_salad.jpg",
+      "image": "",
       "description": "Tomatoes, mozzarella, and basil.",
       "category": "italian"
     },
@@ -148,7 +148,7 @@
       "id": 19,
       "name": "Tiramisu",
       "price": 6.99,
-      "image": "images/tiramisu.jpg",
+      "image": "",
       "description": "Coffee-flavored Italian dessert.",
       "category": "italian"
     },
@@ -156,7 +156,7 @@
       "id": 20,
       "name": "Gnocchi",
       "price": 9.99,
-      "image": "images/gnocchi.jpg",
+      "image": "",
       "description": "Soft dough dumplings in sauce.",
       "category": "italian"
     },
@@ -165,7 +165,7 @@
       "id": 21,
       "name": "Kung Pao Chicken",
       "price": 9.99,
-      "image": "https://cafedelites.com/wp-content/uploads/2018/04/Kung-Pao-Chicken-IMAGE-29.jpg",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZPzj6Qsc-Ur31eGTzEBumAHaJ4?w=540&h=720&rs=1&pid=ImgDetMain",
       "description": "Spicy stir-fried chicken with peanuts.",
       "category": "chinese"
     },
@@ -173,7 +173,7 @@
       "id": 22,
       "name": "Sweet and Sour Pork",
       "price": 8.99,
-      "image": "images/sweet_sour_pork.jpg",
+      "image": "",
       "description": "Pork in sweet and tangy sauce.",
       "category": "chinese"
     },
@@ -181,7 +181,7 @@
       "id": 23,
       "name": "Spring Rolls",
       "price": 4.99,
-      "image": "images/spring_rolls.jpg",
+      "image": "",
       "description": "Crispy rolls filled with vegetables.",
       "category": "chinese"
     },
@@ -189,7 +189,7 @@
       "id": 24,
       "name": "Chow Mein",
       "price": 7.49,
-      "image": "images/chow_mein.jpg",
+      "image": "",
       "description": "Fried noodles with veggies and meat.",
       "category": "chinese"
     },
@@ -197,7 +197,7 @@
       "id": 25,
       "name": "Fried Rice",
       "price": 6.99,
-      "image": "images/fried_rice.jpg",
+      "image": "",
       "description": "Classic Chinese-style fried rice.",
       "category": "chinese"
     },
@@ -205,7 +205,7 @@
       "id": 26,
       "name": "Dumplings",
       "price": 5.49,
-      "image": "images/dumplings.jpg",
+      "image": "",
       "description": "Steamed or pan-fried dumplings.",
       "category": "chinese"
     },
@@ -213,7 +213,7 @@
       "id": 27,
       "name": "Hot and Sour Soup",
       "price": 4.49,
-      "image": "images/hot_sour_soup.jpg",
+      "image": "",
       "description": "Tangy and spicy soup with veggies.",
       "category": "chinese"
     },
@@ -221,7 +221,7 @@
       "id": 28,
       "name": "Szechuan Chicken",
       "price": 9.49,
-      "image": "images/szechuan_chicken.jpg",
+      "image": "",
       "description": "Bold and spicy chicken dish.",
       "category": "chinese"
     },
@@ -229,7 +229,7 @@
       "id": 29,
       "name": "Lo Mein",
       "price": 7.99,
-      "image": "images/lo_mein.jpg",
+      "image": "",
       "description": "Soft noodles with soy-based sauce.",
       "category": "chinese"
     },
@@ -237,7 +237,7 @@
       "id": 30,
       "name": "Wonton Soup",
       "price": 5.49,
-      "image": "images/wonton_soup.jpg",
+      "image": "",
       "description": "Soup with dumplings and vegetables.",
       "category": "chinese"
       
@@ -247,7 +247,7 @@
           "id": 31,
           "name": "Chicken Mandi",
           "price": 11.99,
-          "image": "https://th.bing.com/th/id/OIP.yk57Juips400_LRjT032tgHaI7?rs=1&pid=ImgDetMain",
+          "image": "https://tse4.mm.bing.net/th/id/OIP.BRxTZc-1XYUG34Fi7mX8zwHaHQ?rs=1&pid=ImgDetMain",
           "description": "Traditional Yemeni rice dish with roasted chicken.",
           "category": "arabic"
         },
@@ -255,7 +255,7 @@
           "id": 32,
           "name": "Falafel",
           "price": 5.99,
-          "image": "images/falafel.jpg",
+          "image": "",
           "description": "Fried balls made from ground chickpeas and herbs.",
           "category": "arabic"
         },
@@ -263,7 +263,7 @@
           "id": 33,
           "name": "Shawarma",
           "price": 7.49,
-          "image": "images/shawarma.jpg",
+          "image": "",
           "description": "Spiced meat wrapped in pita bread with veggies.",
           "category": "arabic"
         },
@@ -271,7 +271,7 @@
           "id": 34,
           "name": "Hummus",
           "price": 4.99,
-          "image": "images/hummus.jpg",
+          "image": "",
           "description": "Creamy dip made from chickpeas and tahini.",
           "category": "arabic"
         },
@@ -279,7 +279,7 @@
           "id": 35,
           "name": "Kabsa",
           "price": 10.49,
-          "image": "images/kabsa.jpg",
+          "image": "",
           "description": "Spiced rice dish with meat and vegetables.",
           "category": "arabic"
         }

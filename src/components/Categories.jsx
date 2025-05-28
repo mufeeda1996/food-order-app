@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import {Link} from 'react-router-dom'
 
 function Categories() {
   const [categories, setCategories] = useState([]);
@@ -21,7 +22,8 @@ function Categories() {
   <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
     {categories.map((category, index) => (
       <div key={index}>
-        <div className="category-card text-xl font-semibold">{category}</div>
+        <div className="category-card text-xl font-semibold"><Link to={`/category/dishes/${category}`}>{category}</Link>
+</div>
       </div>
     ))}
   </div>
