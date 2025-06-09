@@ -13,14 +13,14 @@ function HeaderAdmin() {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-stone-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><a>orders</a></li>
         
         <li><a>Add food</a></li>
       </ul>
     </div>
    
-   <a className='flex items-center'><img src={logo} alt="Logo"  width={100}/> <span className='font-bold text-2xl'>Smiley </span></a>
+   <a className='flex items-center'><img src={logo} alt="Logo"  width={100}/> </a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 flex items-center text-md font-semibold">

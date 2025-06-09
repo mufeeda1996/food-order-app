@@ -57,12 +57,12 @@ function AdminHome() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Admin Dashboard</h1>
+    <div className="min-h-screen bg-gray-50 p-4 sm:p-6">
+      <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-800">Admin Dashboard</h1>
 
-      <div className="flex gap-6">
+      <div className="flex flex-col lg:flex-row gap-6">
         {/* Sidebar */}
-        <div className="w-1/4 bg-white p-4 rounded shadow-md">
+        <div className="w-full lg:w-1/4 bg-white p-4 rounded shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-700">Manage</h2>
           <ul className="space-y-3">
             {dashboardItems.map((item) => (
@@ -87,11 +87,11 @@ function AdminHome() {
         </div>
 
         {/* Content Area */}
-        <div className="w-3/4 bg-white p-6 rounded shadow-md">
+        <div className="w-full lg:w-3/4 bg-white p-4 sm:p-6 rounded shadow-md">
           {category === '1' && (
             <>
-              <h2 className="text-2xl font-semibold text-gray-700 mb-4">Category Management</h2>
-              <div className="flex gap-4 mb-4">
+              <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">Category Management</h2>
+              <div className="flex flex-wrap gap-4 mb-4">
                 <button
                   className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
                   onClick={() => setShowCategoryForm(true)}
@@ -128,7 +128,7 @@ function AdminHome() {
               {showProductList && (
                 <div>
                   <h3 className="text-lg font-semibold mb-2">All Categories</h3>
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-inside text-sm sm:text-base">
                     {categoryList.map((cat, i) => (
                       <li key={i}>{cat}</li>
                     ))}
@@ -140,8 +140,8 @@ function AdminHome() {
 
           {category === '2' && (
             <>
-              <h2 className="text-2xl font-semibold text-gray-700 mb-4">Food Management</h2>
-              <div className="flex gap-4">
+              <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">Food Management</h2>
+              <div className="flex flex-wrap gap-4 mb-4">
                 <button
                   className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
                   onClick={() => setFood(true)}
@@ -177,7 +177,7 @@ function AdminHome() {
               {foodList.length > 0 && (
                 <div>
                   <h3 className="text-lg font-semibold mt-4 mb-2">All Foods</h3>
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-inside text-sm sm:text-base">
                     {foodList.map((item, i) => (
                       <li key={i}>
                         {item.name} - {item.category} - ₹{item.price}
