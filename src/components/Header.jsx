@@ -37,8 +37,8 @@ function Header() {
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content bg-stone-900 rounded-box z-1 mt-3 w-52 p-2 shadow">
               <li><a>Home</a></li>
-              <li><a>About us</a></li>
-              <li><a>Contact us</a></li>
+              {/* <li><a>About us</a></li>
+              <li><a>Contact us</a></li> */}
               <li><a>Testimonials</a></li>
               <li><button onClick={() => setMode(!mode)}>Switch to {mode ? 'Light' : 'Dark'} Mode</button></li>
             </ul>
@@ -49,8 +49,8 @@ function Header() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 flex items-center text-md font-semibold">
             <li><a>Home</a></li>
-            <li><a>About us</a></li>
-            <li><a>Contact us</a></li>
+            {/* <li><a>About us</a></li>
+            <li><a>Contact us</a></li> */}
             <li><a>Testimonials</a></li>
           </ul>
         </div>
