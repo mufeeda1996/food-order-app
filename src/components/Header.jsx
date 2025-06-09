@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import logo from '../../public/images/logo.png';
 import { FaPlus, FaTrash } from 'react-icons/fa';
+import { FaShoppingCart } from 'react-icons/fa';
+
 import { removeFromCart } from '../redux/productSlice.js';
 import { useDispatch } from 'react-redux'; 
 import { Link } from 'react-router-dom';
+import SignInForm from './SignInForm';
 
 
 
@@ -13,6 +16,7 @@ function Header() {
   const cartItems = useSelector((state) => state.cart.items);
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
   const [showCart, setShowCart] = useState(false);
+  const [showSignIn, setShowSignIn] = useState(false);
 
   useEffect(() => {
     document.body.className = mode ? 'dark-mode' : 'light-mode';
@@ -55,9 +59,9 @@ function Header() {
           <button className='btn mr-2' onClick={() => setMode(!mode)}>
             {mode ? 'Light' : 'Dark'} Mode
           </button>
-          <a className="btn mr-2">Sign in</a>
+          <button className="btn mr-2" onClick={() => setShowSignIn(true)}>Sign in</button>
           <button className="btn relative" onClick={() => setShowCart(!showCart)}>
-            Cart ({cartCount})
+          <FaShoppingCart size={20} /> ({cartCount})
           </button>
         </div>
       </div>
@@ -79,15 +83,22 @@ function Header() {
                 >
                   <FaTrash />
                 </button>
-                <button className="flex items-center gap-2 px-4 py-1 bg-green-500 text-white rounded hover:bg-green-600"><Link to={'./checkout'}>Checkout</Link> </button>
+                <Link
+                to="/checkout"
+                className="flex items-center gap-2 px-4 py-1 bg-green-500 text-white rounded hover:bg-green-600"
+                >
+                Checkout
+               </Link>
               </div>
              
             ))
           ) : (
             <p className="text-sm text-gray-500">Cart is empty.</p>
           )}
+        
         </div>
       )}
+        {showSignIn && <SignInForm onClose={() => setShowSignIn(false)} />}
     </div>
   );
 }
