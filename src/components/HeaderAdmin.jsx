@@ -14,9 +14,9 @@ function HeaderAdmin() {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-stone-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>orders</a></li>
+        <li><a className='text-black'>orders</a></li>
         
-        <li><a>Add food</a></li>
+        <li><a className='text-black'>Add food</a></li>
       </ul>
     </div>
    
