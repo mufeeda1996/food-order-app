@@ -52,13 +52,14 @@ function Header() {
             {/* <li><a>About us</a></li>
             <li><a>Contact us</a></li> */}
             <li><a>Testimonials</a></li>
+            <li><button onClick={() => setMode(!mode)}>Switch to {mode ? 'Light' : 'Dark'} Mode</button></li>
           </ul>
         </div>
 
         <div className="navbar-end">
-          <button className='btn mr-2' onClick={() => setMode(!mode)}>
+          {/* <button className='btn mr-2' onClick={() => setMode(!mode)}>
             {mode ? 'Light' : 'Dark'} Mode
-          </button>
+          </button> */}
           <button className="btn mr-2" onClick={() => setShowSignIn(true)}>Sign in</button>
           <button className="btn relative" onClick={() => setShowCart(!showCart)}>
           <FaShoppingCart size={20} /> ({cartCount})
