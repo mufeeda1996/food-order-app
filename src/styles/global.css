@@ -62,3 +62,11 @@
     width: 300px;
     height: 250px;
   }
+  .dark-mode{
+    background-color:#af2525;
+    color:#fff;
+  }
+  .light-mode{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+  }
